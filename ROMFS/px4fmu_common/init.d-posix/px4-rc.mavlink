@@ -7,6 +7,10 @@ udp_offboard_port_local=$((14580+px4_instance))
 #	    sysid >= 9. Instead, first PX4 instance will be given port 16000, and offset
 #	    of +1 is is added each time for each new PX4 instance.
 #
+#           Help Resources Utilized when Developing this Solution:
+#           https://discuss.px4.io/t/running-gazebo-simulation-with-more-than-10-drones/21690/2
+#           https://discuss.px4.io/t/how-to-connect-to-multiple-vehicles-with-system-id-greater-than-9/26595/5
+#
 udp_offboard_port_remote=$((16000+px4_instance))
 udp_onboard_payload_port_local=$((14280+px4_instance))
 udp_onboard_payload_port_remote=$((14030+px4_instance))
